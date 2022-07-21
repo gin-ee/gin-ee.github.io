@@ -1,0 +1,225 @@
+/****************** TAG SELECTORS ******************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #014d4e;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #FFCE45;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Indie Flower', cursive; */
+  font-size: 2.5rem;
+  color: #FFCE45;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 4%;
+  margin: 80px auto;
+  color: #EAF6F6;
+}
+
+td {
+  text-align: left;
+  font-family: 'Merriweather', serif;
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  height: 3rem;
+  padding: 0;
+  display: list-item;
+}
+
+p {
+  line-height: 2;
+}
+
+ul li { padding: 3px 0px; }
+
+/****************** CLASS SELECTORS ******************/
+
+.bottom-cloud {
+  position: absolute;
+  right: 200px;
+  bottom: 250px;
+}
+
+.bottom-container {
+  background-color: #C06C84;
+  padding: 50px 0 20px;
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 12px;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.circular-img {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  overflow: hidden;
+  position: relative;
+  image-rendering: -moz-crisp-edges; 
+  image-rendering:   -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor
+}
+
+.contact-message {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0; 
+}
+
+.footer-link {
+  color: #FFCE45;
+}
+
+.icon_column {
+  float: left;
+  width: 14.28%;
+  padding: 0px;
+}
+
+.icon_row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.intro {
+  width: 88%;
+  margin: auto;
+}
+
+.page-link {
+  color: #FFFFFF;
+}
+
+.middle-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 500px;
+}
+
+.middle-container {
+  position: relative;
+  margin: auto;
+  padding-top: 1rem;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  width: 65%;
+  background-color: #C06C84;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.row{
+  text-align: left;
+}
+
+.th-title {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  height: 2rem;
+  /* text-shadow: 0 0 0px black, 0 0 0px black, 0 0 0px black, 0 0 3px black; */
+}
+
+.th-period {
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  height: 2rem;
+  /* text-shadow: 0 0 0px black, 0 0 0px black, 0 0 0px black, 0 0 3px black; */
+}
+
+.top-container {
+  position: relative;
+  padding-top: 1rem;
+  background-color: #C06C84;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 80px;
+}
+
+/****************** ID SELECTORS ******************/
+
+#title.container-fluid {
+  text-align: left;
+  padding-top: 3%;
+}
+
